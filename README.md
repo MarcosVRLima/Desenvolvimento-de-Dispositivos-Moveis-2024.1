@@ -10,8 +10,13 @@ Neste repositório, você encontrará diversos exercícios e projetos relacionad
 
 - **Calculadora Simples**
   - **Descrição:** Um aplicativo de calculadora que realiza operações básicas como soma, subtração, multiplicação e divisão.
-  - **Caminho:** `calculadora/`
-  - **Instruções para Execução:** Consulte o arquivo `README.md` na pasta `calculadora/`.
+  - **Caminho:** `Calculadora/`
+  - **Instruções para Execução:** Consulte o arquivo `README.md` na pasta `Calculadora/`.
+ 
+- **Login Simples Intent**
+  - **Descrição:** Um aplicativo Android com duas telas. A tela de login permite ao usuário inserir credenciais que são validadas contra uma lista predefinida. Se o login for bem-sucedido, o usuário é redirecionado para uma tela principal que exibe uma mensagem de boas-vindas. Inclui também uma funcionalidade de logoff que retorna o usuário à tela de login.
+  - **Caminho:** `LoginSimplesIntent/`
+  - **Instruções para Execução:** Consulte o arquivo `README.md` na pasta `LoginSimplesIntent/`.
 
 ## Pré-requisitos
 
