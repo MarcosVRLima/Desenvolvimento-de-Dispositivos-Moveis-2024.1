@@ -12,6 +12,12 @@ O Contact List App é uma aplicação Android que permite aos usuários gerencia
 - **Buscar Contatos**: Permite buscar contatos por nome, número ou e-mail.
 - **Listagem de Contatos**: Exibe a lista de contatos em um `RecyclerView`.
 
+## Uso
+
+- **Editar Contato**: Para editar um contato, clique uma vez sobre o item na lista. Isso abrirá a tela de edição, onde você pode modificar os detalhes do contato.
+- **Excluir Contato**: Para excluir um contato, mantenha pressionado o item na lista. Isso abrirá uma tela de confirmação de exclusão.
+
+
 ## Tecnologias Utilizadas
 
 - **Kotlin**: Linguagem de programação usada para desenvolver a aplicação.
