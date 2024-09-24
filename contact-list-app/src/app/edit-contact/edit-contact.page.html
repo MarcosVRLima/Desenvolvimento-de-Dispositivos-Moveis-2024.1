@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Edit Contact</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="contact">
+  <ion-item>
+    <ion-label position="floating">Name</ion-label>
+    <ion-input [(ngModel)]="contact.name"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Phone</ion-label>
+    <ion-input [(ngModel)]="contact.phone" type="tel"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Email</ion-label>
+    <ion-input [(ngModel)]="contact.email" type="email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Photo URL</ion-label>
+    <ion-input [(ngModel)]="contact.photo"></ion-input>
+  </ion-item>
+
+  <ion-footer>
+    <ion-button expand="block" (click)="saveChanges()">Save Changes</ion-button>
+    <ion-button expand="block" color="danger" (click)="deleteContact()">Delete Contact</ion-button>
+    <ion-button expand="block" color="medium" (click)="goBack()">Cancel</ion-button>
+  </ion-footer>
+</ion-content>
